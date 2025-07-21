@@ -19,6 +19,7 @@ class SuratSeeder extends Seeder {
                 ], [
                     'jenis_surat_id' => $jenis->id,
                     'tanggal_surat'  => $tanggal->toDateString(),
+                    'tanggal_masuk'  => $tanggal->toDateString(),
                     'perihal'        => "Contoh {$jenis->nama} ke-{$i}",
                     'tujuan'         => 'Ketua Cabang ' . Str::title($jenis->nama),
                     'isi'            => 'Isi surat contoh nomor ' . $i . ' untuk jenis ' . $jenis->nama,
