@@ -22,6 +22,10 @@
             <input type="date" name="tanggal_surat" class="w-full border rounded p-2" required>
         </div>
         <div>
+            <label class="block font-semibold">Tanggal Masuk</label>
+            <input type="date" name="tanggal_surat" class="w-full border rounded p-2" required>
+        </div>
+        <div>
             <label class="block font-semibold">Perihal</label>
             <input type="text" name="perihal" class="w-full border rounded p-2" required>
         </div>
