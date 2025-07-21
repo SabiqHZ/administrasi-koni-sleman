@@ -11,6 +11,7 @@ return new class extends Migration {
             $table->foreignId('jenis_surat_id')->constrained('jenis_surats')->onDelete('cascade');
             $table->string('nomor_surat', 50)->unique();
             $table->date('tanggal_surat');
+            $table->date('tanggal_masuk');
             $table->string('perihal', 150);
             $table->string('tujuan', 150);
             $table->text('isi')->nullable();
