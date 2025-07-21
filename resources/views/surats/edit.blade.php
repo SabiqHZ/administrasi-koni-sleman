@@ -23,6 +23,10 @@
             <input type="date" name="tanggal_surat" value="{{ $surat->tanggal_surat->toDateString() }}" class="w-full border rounded p-2" required>
         </div>
         <div>
+            <label class="block font-semibold">Tanggal Masuk Surat</label>
+            <input type="date" name="tanggal_surat" value="{{ $surat->tanggal_surat->toDateString() }}" class="w-full border rounded p-2" required>
+        </div>
+        <div>
             <label class="block font-semibold">Perihal</label>
             <input type="text" name="perihal" value="{{ $surat->perihal }}" class="w-full border rounded p-2" required>
         </div>
